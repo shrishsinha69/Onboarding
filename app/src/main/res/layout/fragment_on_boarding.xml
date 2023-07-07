@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoardingFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp" />
+
+    <View
+        android:id="@+id/white_backg"
+        android:layout_width="wrap_content"
+        android:layout_height="323dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="342dp"
+
+        android:layout_marginRight="49dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/whimte"></View>
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="263dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/heading"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descTxt"
+        android:layout_width="224dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/titleTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="61dp"
+        android:text="body"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

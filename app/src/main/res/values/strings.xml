@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OnBoarding Screen App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feed">FEED</string>
+    <string name="upload">UPLOAD</string>
+    <string name="google">Verified by Google</string>
+    <string name="body">Image Feed and Upload in Your App!!!</string>
+    <string name="heading">VISUAL DELIGHTS</string>
+    <string name="select_image">SELECT IMAGE</string>
+    <string name="capture">CAPTURE</string>
+</resources>
